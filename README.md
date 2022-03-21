@@ -78,8 +78,8 @@ Interep retrieves data from third party APIs for evaluating their reputation. Th
 
 ## 2. Explain what happens to the Merkle Tree in the MongoDB instance when you decide to leave a group.
 
-It changes corresponding leaf hash values to zero.
-It adds new root hash to TreeTootBatches item's roots key.
+It changes corresponding leaf hash values to zero in treeNodes table.
+It adds new root hash to corresponding item's roots key in TreeTootBatches table.
 
 ## 3. Take the screenshots of the responses and paste them to your assignment submission PDF.
 
