@@ -2,13 +2,19 @@
 
 ## 1. Write a Circom circuit that verifies this move.
 
-TODO: link
+[Move.circom](https://github.com/enu-kuro/zku-week3/blob/main/q1/circuits/Move.circom)
 
 ## [Bonus] Make a Solidity contract and a verifier that accepts a snark proof and updates the location state of players stored in the contract.
 
+Triangle jump does't change the location state so I directy uses Verifier.sol's verifyProof function.  
+Test code: [index.js](https://github.com/enu-kuro/zku-week3/blob/main/q1/test/index.js)
+
 # Question 2: Fairness in card games
 
-TODO: link
+[Card.circom](https://github.com/enu-kuro/zku-week3/blob/main/q2/circuits/Card.circom)  
+[SimpleCardGame.sol](https://github.com/enu-kuro/zku-week3/blob/main/q2/contracts/SimpleCardGame.sol)  
+Test code: [index.js](https://github.com/enu-kuro/zku-week3/blob/main/q2/test/index.js)
+
 
 # Question 3: MACI and VDF
 
@@ -67,8 +73,6 @@ On blockchain, all states are visible so at the second phase last party can sele
 It happens because attackers can see how different inputs affect the output before commiting.
 VDFs prevents attackers from affecting the output, because all inputs will be finalized before anyone can finish computing the VDFs.
 
-## [Bonus] How would two players pick a random and mutually exclusive subsets of a set? For instance, in a poker game, how would two players decide on a hand through the exchange of messages on a blockchain?
-
 # Question 4: InterRep
 
 ## 1. How does InterRep use Semaphore in their implementation? Explain why InterRep still needs a centralized server.
@@ -83,7 +87,14 @@ It adds new root hash to corresponding item's roots key in TreeTootBatches table
 
 ## 3. Take the screenshots of the responses and paste them to your assignment submission PDF.
 
-TODO: link
+- Before leaving the group
+
+![Before leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_true.png)
+
+- After leaving the group
+
+![After leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_false.png)
+
 
 # Question 5: Thinking in ZK
 
