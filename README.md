@@ -15,7 +15,6 @@ Test code: [index.js](https://github.com/enu-kuro/zku-week3/blob/main/q1/test/in
 [SimpleCardGame.sol](https://github.com/enu-kuro/zku-week3/blob/main/q2/contracts/SimpleCardGame.sol)  
 Test code: [index.js](https://github.com/enu-kuro/zku-week3/blob/main/q2/test/index.js)
 
-
 # Question 3: MACI and VDF
 
 ## 1. What problems in voting does MACI not solve? What are some potential solutions?
@@ -89,12 +88,20 @@ It adds new root hash to corresponding item's roots key in TreeTootBatches table
 
 - Before leaving the group
 
-![Before leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_true.png)
+![Before leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_true.png)  
+[Before leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_true.png)
 
 - After leaving the group
 
-![After leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_false.png)
+![After leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_false.png)  
+[After leaving the group](https://github.com/enu-kuro/zku-week3/blob/main/screenshot/InterRep_status_false.png)
 
+### 4. [Bonus] Suggest a viable solution to make InterRep completely decentralized.
+
+How to interact with third party APIs on decentralized way?  
+I couldn't come up with a solution.  
+It needs some Oracles or decentralized server but third party APIs often change so we have to maintain the code.  
+I think continuously maintaining code requires centralized something.
 
 # Question 5: Thinking in ZK
 
